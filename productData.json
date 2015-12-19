@@ -1,7 +1,7 @@
 {
   "products": [
-    {"name": "Avaruuspuku", "searchName": "avaruuspuku", "price": "99", "availability": 55},
-    {"name": "Dan Brown - Inferno", "searchName": "dan brown inferno", "price": "44", "availability": 44},
-    {"name": "Belarus 45xl", "searchName": "belarus 45 xl", "price": "1000", "availability": 22}
+    {"name": "Avaruuspuku", "price": "99", "availability": 55},
+    {"name": "Dan Brown - Inferno", "price": "44", "availability": 44},
+    {"name": "Belarus 45xl", "price": "1000", "availability": 22}
   ]
 }
