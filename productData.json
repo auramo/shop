@@ -2,6 +2,8 @@
   "products": [
     {"name": "Avaruuspuku", "price": "99", "availability": 55},
     {"name": "Dan Brown - Inferno", "price": "44", "availability": 44},
-    {"name": "Belarus 45xl", "price": "1000", "availability": 22}
+    {"name": "Belarus 45xl", "price": "1000", "availability": 22},
+    {"name": "Nenäkannu", "price": "20", "availability": 1000},
+    {"name": "Jalkavasara", "price": "45", "availability": 20}
   ]
 }
