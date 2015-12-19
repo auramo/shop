@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="http://d2v52k3cl9vedd.cloudfront.net/basscss/7.0.4/basscss.min.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="throttledInput.js"></script>
+    <script src="products.js"></script>
+</head>
+<body>
+    <div>
+        <a href="#" class="btn btn-primary">Tuotteet</a>
+        <a href="#" class="btn">Yhteystiedot</a>
+        <a href="#" class="btn">Ostoskori</a>
+    </div>
+    <form>
+        <label for="search">Hae
+            <input id="search" type="text" class="field">
+        </label>
+    </form>
+    <div class="overflow-scroll">
+        <table class="table-light overflow-hidden bg-white border rounded">
+            <thead class="bg-darken-1">
+                <tr>
+                    <th>Tuote</th> <th>Hinta</th> <th>Varastossa</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr class="product-row"> <td data-name="avaruuspuku" class="product-name">Avaruuspuku</td> <td>19,99$</td> <td>5</td> </tr>
+            <tr class="product-row"> <td data-name="koiranruoka 5kg pussi" class="product-name">Koiranruoka 5kg pussi</td> <td>5$</td> <td>10</td> </tr>
+            <tr class="product-row"> <td data-name="peter gabriel - so cd" class="product-name">Peter Gabriel - So CD</td> <td>30€</td> <td>3</td> </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
