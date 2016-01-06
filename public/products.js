@@ -31,6 +31,7 @@
                         '</tr>'
                 })
             $('.product-table-body').html(tableRows.join(""))
+            $( ".load-indicator").hide()
         }).fail(function(req, statusStr) {
             alert("Fetching products failed " + statusStr)
         })
