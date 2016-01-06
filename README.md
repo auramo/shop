@@ -1,6 +1,8 @@
 # Shop example
 
-Demonstrates server-side rendering and dynamic filtering of product data in JavaScript.
+Demonstrates client-side rendering and dynamic filtering of product
+data in JavaScript. Product-list is retrieved via Ajax get-call.
+
 
 To run this use NodeJs version 4.1.2 or newer. After installation, run:
 
@@ -15,16 +17,15 @@ Then load the shop page with from http://localhost:8080
 
 ### server.js
 
-Fills the HTML template file ([handlebars template](http://handlebarsjs.com/)) with data from productData.json
-and serves it from the root (http://localhost:8080).
+Just a plain web server serving static files at this point.
 
-### productListTemplate.handlebars
+### index.html
 
 Mostly plain HTML, only dynamic part is the product list HTML table.
 
 ### products.js
 
-Handles filtering of the product list when search field is changed.
+Handles fetching products via ajax, rendering it and filtering of the product list when search field is changed.
 
 ### throttledinput.js
 
