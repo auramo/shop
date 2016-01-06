@@ -1,11 +1,11 @@
+
 {
   "name": "shop",
   "version": "0.0.1",
   "description": "Shop example",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.3",
-    "handlebars": "^4.0.5"
+    "express": "^4.13.3"
   },
   "devDependencies": {}
 }
